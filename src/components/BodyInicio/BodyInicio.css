@@ -1,0 +1,56 @@
+.estilosContenedorP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #013C16;
+    height: 50px;
+}
+.estilosContenedorP p {
+    color: white;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.estilosContenedorImagen {
+    width: 100%;  
+    height: 680px; 
+}
+
+.estilosContenedorImagen img {
+    width: 100%; 
+    height: 100%; 
+    
+}
+
+.estilosContenedorPromociones {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    height: 100px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+.estilosPromocionesP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #013C16;
+    border: 1px solid black; 
+    border-radius: 4px;
+    height: 50%;
+    width: 100%;
+}
+
+.estilosPromocionesP p {
+    color: white;
+}
+
+.estilosLogosBancos img {
+    max-width: 50%;
+    height: auto;
+}

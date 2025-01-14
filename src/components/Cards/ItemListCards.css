@@ -1,0 +1,21 @@
+.estilosItemList{
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px;  
+    flex-wrap: wrap;  
+    padding: 15px;  
+    margin-top: 30px;  
+}
+
+.estilosCategorias {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #013C16;
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}

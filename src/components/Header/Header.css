@@ -1,0 +1,72 @@
+.estilosHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E1E1E;
+    height: 100px;
+}
+
+.estilosLogo {
+    display: inline-block;
+    width: 100px; 
+    height: 100px; 
+    cursor: pointer; 
+    margin-left: 20px;
+}
+
+
+
+.estilosBarraBusqueda {
+    position: relative;
+    width: 450px; 
+    margin-left: 40px;
+}
+
+.estilosBarraBusqueda input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 30px; 
+    border-radius: 15px; 
+    background-color: #444444;
+}
+
+.estilosBotonBusqueda {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.estilosBotonBusqueda img {
+    width: 20px; 
+    height: 20px;
+}
+
+.estilosBotonUsuario{
+    background: none; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.estilosBotonUsuario img {
+    width: 40px; 
+    height: 40px; 
+}
+
+.estilosBotonCarrito{
+    background: none; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.estilosBotonCarrito img{
+    width: 40px; 
+    height: 40px;    
+}
