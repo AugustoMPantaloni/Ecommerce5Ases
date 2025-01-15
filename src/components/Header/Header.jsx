@@ -20,7 +20,7 @@ const Header = () =>{
             </form>
             <div>
                 <button className="estilosBotonUsuario"> <img src={IconoUsuario} alt="icono1"/> </button>
-                <button className="estilosBotonCarrito"> <img src={IconoCarrito} alt="icono2"/> </button>
+                <Link to="/carritoDeCompras" className="estilosBotonCarrito"> <img src={IconoCarrito} alt="icono2"/> </Link>
             </div>
         </div>
         </>

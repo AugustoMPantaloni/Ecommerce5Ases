@@ -1,0 +1,41 @@
+.contenedorCarrito{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorProductosCarrito{
+    border: solid 20px #013C16;
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contenedorProductosCarrito p {
+    margin-top: 5px;
+}
+
+.contenedorResumenCarrito{
+    margin-top: 50px;
+    border: solid 20px #013C16;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedorResumenCarrito p{
+    margin-top: 5px;
+}
+.contenedorResumenCarrito button{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.detallesCompra{
+    margin-right: 500px;
+}
+.contenedorTotal{
+    margin-top: 70px;
+    display: flex;
+}
